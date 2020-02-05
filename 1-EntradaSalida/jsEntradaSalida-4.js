@@ -5,5 +5,13 @@
 function mostrar()
 {
 
+	var nombre;
+
+	nombre = prompt("ingrese su nombre");
+	//insertamos el valor al revez que la pagina 3
+	document.getElementById("elNombre").value = nombre;
+
+
+
 }
 
