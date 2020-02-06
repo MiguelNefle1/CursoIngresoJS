@@ -5,5 +5,15 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
+    var sueldo;
+    var RESULTADO;
+    
+    sueldo = document.getElementById("sueldo").value;
+
+    parseInt(sueldo);
+
+    RESULTADO = (sueldo + (sueldo * 10)/100);
+
+    alert("el resto es : " + RESULTADO);
 	
 }
