@@ -4,9 +4,9 @@ function mostrar()
 edad = parseInt(document.getElementById("edad").value);
 estadoCivil= document.getElementById("estadoCivil").value;
 
-if(edad > 17 % estadoCivil != "soltero"){
+if(edad < 18 && estadoCivil != "soltero"){
 
-
+alert("Es muy pequeño para NO ser soltero");
     
 }
 	
